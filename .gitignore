@@ -1,0 +1,60 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+local_settings.py
+
+# Databases, uploads, private datasets and generated assets
+db.sqlite3
+db.sqlite3-*
+*.sqlite3
+media/
+uploads/data/
+data/
+datasets/
+test/
+staticfiles/
+logs/
+outputs/
+results/raw/
+*.csv
+*.xes
+*.parquet
+*.xlsx
+*.xls
+
+# Model artifacts: not reviewed for ownership, privacy or safety
+**/trained_models/
+Group7/
+group6/
+*.pkl
+*.joblib
+*.keras
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Python, notebooks, IDE, macOS
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+.coverage
+
+# Archives and build outputs
+*.zip
+*.tar
+*.gz
+dist/
+build/
